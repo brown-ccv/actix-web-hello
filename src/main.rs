@@ -7,11 +7,16 @@ async fn greet(name: web::Path<String>) -> impl Responder {
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
+    let port = "8080";
+    let ip_address = format!("0.0.0.0:{}", port);
+
+    println!("Listening on port: {}", port);
+
     HttpServer::new(|| {
         App::new()
             .route("/{name}", web::get().to(greet))
     })
-    .bind("0.0.0.0:8080")?
+    .bind(ip_address)?
     .run()
     .await
 }
