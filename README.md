@@ -29,6 +29,7 @@ docker run -p 8080:8080 actix-hello
 ```
 
 ### Confirm the Container is Running 
+Finally, we confirm the container is running. Note, we can replace `paul` with any string, and it will be echoed back by the application. Also note you can check this in the browser if you prefer. 
 ```
 curl http://127.0.0.1:8080/paul
 ```
