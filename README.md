@@ -16,7 +16,7 @@ git clone git@github.com:brown-ccv/actix-web-hello.git
 
 
 ### Build the Container
-Build the Docker container:
+Build the container and tag it as `actix-hello`
 ```
 cd actix-web-hello
 docker build -t actix-hello .
