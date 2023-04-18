@@ -11,7 +11,7 @@ We're going to begin by cloning this repository. Then we'll build the Docker con
 
 ### Clone This Repo
 ```
-git clone git@github.com:brown-ccv/actix-web-hello.git
+git clone https://github.com/brown-ccv/actix-web-hello.git 
 ```
 
 
