@@ -1,5 +1,10 @@
 # actix-web-hello
 
+![Static Badge](https://img.shields.io/badge/ARCHIVED-red)
+
+**Archived February, 2026, due to inactivity**
+---
+
 This is a minimal example of using Docker to package a Rust application that uses the Actix-Web library.
 
 ## Dependencies 
